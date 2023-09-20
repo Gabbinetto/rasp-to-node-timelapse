@@ -22,7 +22,7 @@ class Timelapse:
             ".", "images"
         )  # Directory to save captured images
         self.post_url = (
-            "http://192.168.1.15:5000/timelapse"  # URL to post captured images
+            "http://127.0.0.1:5000/timelapse"  # URL to post captured images
         )
         self.log_file = os.path.join(".", "events.log")  # Log file to store events
         self.iterations = 10  # Number of iterations to capture images
